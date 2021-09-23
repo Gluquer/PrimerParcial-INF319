@@ -1,0 +1,4 @@
+install.packages("modeest")
+library(modeest)
+datos<-c(5,7,12,13,14,22,88,7,9,10,22,14,18,7,7,5,2,22,7,12,23,22)
+mfv(datos)
